@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-image: url('images/grey_wash_wall.png');
+	background: #e1e1e1;
+}
+
+.dev{
+	color: red;
+}
+
+input[type=checkbox]{
+  -webkit-transform: scale(2);
+  cursor: pointer;
+}
+
+#listings{
+	margin-left: 300px;
+	margin-top: 0px;
+	float: left;
+}
+
+#menu{
+	margin-left: 30px;
+	margin-top: 30px;
+	position: fixed;
+}
+
+.button{
+	width: 200px;
+}
+
+.listing{
+	margin-top: 50px;
+}
+
+.listingImage{
+	float: left;
+	clear: left;
+	margin-right: 10px;
+	min-width: 48px;
+	min-height: 48px;
+}
+
+.listingTitle{
+	float: left;
+	margin-top: 10px;
+	font-size: 200%;
+
+}
+
+.collection{
+	display: block;
+	clear: left;
+	margin-left: 60px;
+	padding-top: 20px;
+}
+
